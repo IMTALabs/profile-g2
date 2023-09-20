@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+background-color: #ebeff2;
+}
+
+.image-designer{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    margin-left: 25px;
+    padding: 3px;
+    background-color: rgb(219, 210, 210);
+}
+.infomation-designer{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+.infomation-designer-text ul li a i{
+
+font-size: 20px;
+border-radius: 100%;
+border: 5px;
+border-color: rgb(46, 182, 182);
+background-color: rgb(212, 219, 221);
+padding: 5px 6px;
+margin-bottom: 10px;
+
+}
+.social-list .social-list-item .fa-facebook{
+    color: blue;
+}
+
+.social-list .social-list-item .fa-g{
+    color: #ff5b5b;
+}
+
+.social-list .social-list-item .fa-twitter{
+    color: #71b6f9;
+}
+
+.social-list .social-list-item .fa-github{
+    color: #333333;
+}
+
+
+.card-body ul li a i{
+    color: rgb(181, 176, 176);
+
+}
+.nav-fix {
+    width: 260px;
+    height: auto;
+    position: fixed;
+    right: 0;
+z-index: 50;
+background-color: #e4e8eb;
+position: fixed;
+
+}
+
+.nav-fix-theme {
+    height: 60px;
+    background-color: rgb(71, 71, 181);
+    margin-bottom: 19px;
+}
+
+.incon-x {
+    background-color: rgb(65, 63, 63);
+    padding: 5px 7px;
+    border-radius: 100%;
+    color: aliceblue;
+}
+
+.nav-fix-customeize {
+    margin: 0 10px;
+    height: 70px;
+    background-color: antiquewhite;
+    color: rgb(216, 158, 87);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-group-item{
+    border: 1px solid #fcfcfc;
+    border-left: none;
+    border-right: none;
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+}
+
+.list-group-item li{
+    
+}
+
+.list-group-item a{
+    display: flex;
+    cursor: pointer;
+}
+
+.list-group-item .user-list-item .user-desc{
+    margin-left: 12px;
+}
+
+.fa-bars ::before{
+    content: "\f039f";
+}
+
+.fa-bars{
+    margin-right: 7px;
+}
+
+.text-primary .user-list-item .user i{
+    color: #71b6f9;
+}
+
+.text-success .user-list-item .user i{
+    color: #10c469;
+}
+
+.text-pink .user-list-item .user i{
+    color: #ff8acc;
+}
+
+.text-muted .user-list-item .user i{
+    color: #98a6ad;
+}
+
+.text-danger .user-list-item .user i{
+    color: #ff5b5b;
+}
